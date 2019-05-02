@@ -1,0 +1,61 @@
+[{
+    "Make": "Audi",
+    "Model": "2009 Audi A3",
+    "Plate": "CIL-184",
+    "Classification": "Automatic transmission",
+    "Year": 2009,
+    "Color": "Black",
+    "Price": 80000,
+    "Wiki": "http://en.wikipedia.org/wiki/Audi_S5#Audi_S5"
+  },
+  {
+    "Make": "Porsche",
+    "Model": "911",
+    "Plate": "SKI-167",
+    "Classification": "Automatic transmission",
+    "Year": 2019,
+    "Color": "Silver",
+    "Price": 135000,
+    "Wiki": "http://en.wikipedia.org/wiki/Porsche_997"
+  },
+  {
+    "Make": "Nissan",
+    "Model": "GT-R",
+    "Plate": "KGB-345",
+    "Classification": "Automatic transmission",
+    "Year": 2016,
+    "Color": "Blue",
+    "Price": 70000,
+    "Wiki": "http://en.wikipedia.org/wiki/Nissan_Gt-r"
+  },
+  {
+    "Make": "BMW",
+    "Model": "M3",
+    "Plate": "CDG-876",
+    "Classification": "Automatic transmission",
+    "Year": 2010,
+    "Color": "Black",
+    "Price": 60500,
+    "Wiki": "http://en.wikipedia.org/wiki/Bmw_m3"
+  },
+  {
+    "Make": "Audi",
+    "Model": "S5",
+    "Plate": "YTR-765",
+    "Classification": "Automatic transmission",
+    "Year": 2009,
+    "Color": "Red",
+    "Price": 53000,
+    "Wiki": "http://en.wikipedia.org/wiki/Audi_S5#Audi_S5"
+  },
+  {
+    "Make": "Audi",
+    "Model": "TT",
+    "Plate": "MAS-007",
+    "Classification": "Automatic transmission",
+    "Year": 2008,
+    "Color": "White",
+    "Price": 40000,
+    "Wiki": "http://en.wikipedia.org/wiki/Audi_TT"
+  }
+]

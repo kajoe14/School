@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Object Orientated Programming</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <style>
+    .discount {
+      color: #e31837;
+      font-weight: bold;
+    }
+    .small {
+      font-size: 22px;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <h4>OOP - TASK 1 & Task 3 <span class="small">(Discount calculation included)</span></h4>
+      </div>
+    </div>
+    <form id="car-info">
+      <div class="row">
+        <div class="six columns">
+          <label>License Plate</label>
+          <input class="u-full-width" type="text" placeholder="CIL - 184" id="license-plate">
+        </div>
+        <div class="six columns">
+          <label>Car Maker</label>
+          <input class="u-full-width" type="text" placeholder="Car Maker" id="car-maker">
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <label>Car Model</label>
+          <input class="u-full-width" type="text" placeholder="Model" id="car-model">
+        </div>
+        <div class="six columns">
+          <label>Price</label>
+          <input class="u-full-width" type="number" placeholder="Price" id="car-price">
+        </div>
+      </div>
+      <div class="row">
+        <div class="six columns">
+          <label>Color</label>
+          <input class="u-full-width" type="text" placeholder="Color" id="car-color">
+        </div>
+        <div class="six columns">
+          <label>Year</label>
+          <input class="u-full-width" type="text" placeholder="Year" id="car-year">
+        </div>
+      </div>
+      <input class="button-primary u-full-width" type="submit" value="Submit">
+    </form>
+    <div class="row">
+      <div class="twelve columns">
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Licence Plate</th>
+              <th>Car Maker</th>
+              <th>Model</th>
+              <th>Color</th>
+              <th>Year</th>
+              <th>Original Price</th>
+              <th>Discount Price</th>
+            </tr>
+          </thead>
+          <tbody id="car-list"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row" style="margin-top:8rem; margin-bottom:2rem;">
+      <div class="row">
+        <div class="twelve columns">
+          <h4>OOP - TASK 2</h4>
+        </div>
+      </div>
+      <div class="twelve columns">
+        <label>Search By License Plate</label>
+        <select class="u-full-width" id="search-plate">
+          <option value="">Select License Plate</option>
+          <option value="CIL-184">CIL-184</option>
+          <option value="SKI-167">SKI-167</option>
+          <option value="KGB-345">KGB-345</option>
+          <option value="CDG-876">CDG-876</option>
+          <option value="YTR-765">YTR-765</option>
+          <option value="MAS-007">MAS-007</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <script src="js/objects.js"></script>
+  <script src="js/fetch.js"></script>
+</body>
+
+</html>

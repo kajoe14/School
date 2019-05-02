@@ -1,0 +1,50 @@
+Assignment
+
+Part 1:
+
+Make an application which asks from the user: 
+car licence plate number, 
+the car maker, 
+car model, 
+price and 
+colour.
+
+Use the user input about a car and create a new car object based on inserted properties.
+Make an array of all added cars and show console table with an array
+
+
+Part 2: 
+
+Create a function that allows the user to search for a specific car based on a license plate. 
+When the licence plate is found, show on screen this car mark and model.
+
+
+Part 3: 
+
+Create a method discount() for the car-object that returns a discounted price of the vehicle. The discounted price depends on the cost of the car. 
+If the price is over 20 000, the discount is 25%. If it is under 5000, it is 10%. Otherwise, the discount is 15%.
+Show the discount on screen after adding new car.
+
+
+
+// TIMER TASKS - 
+
+HOW MANY DAYS LEFT?
+
+Make an application which tells you how many days are left until some specific date.
+
+User can select the start time
+User inputs date (end date)
+The program counts how many days there is left until the entered date (from today (start date) until end date)
+The program calculates how many business days there are left until the entered date (from today (start date) until the end date and skipping Saturdays and Sundays).
+Make your app beautiful! (backgrounds, fonts, nice input and buttons)
+Add real-time counter (days, hours, minutes, seconds)
+Extra bonus: - Add oportunity to count only business days (skipping also bank holidays).
+
+For assessment, please upload your GitHub link to the solution and describe in free from steps you made for this solution (ex. made a function, pushing the new object to an array, show result in console log e.t.c). 
+
+
+
+
+
+// 
